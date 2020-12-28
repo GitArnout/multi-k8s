@@ -23,7 +23,7 @@ after_success:
   - docker push dockerhub88/multi-server
   - docker push dockerhub88/multi-worker
 
-  deploy:
+ deploy:
     provider: elasticbeanstalk
     region: "us-east-2" 
     app: "multi-docker"
