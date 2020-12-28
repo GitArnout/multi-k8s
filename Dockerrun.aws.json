@@ -1,5 +1,5 @@
 {
-  "AWSEBDockerrunVersion": 3,
+  "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
     {
       "name": "client",
@@ -25,11 +25,11 @@
     {
       "name": "nginx",
       "image": "dockerhub88/multi-nginx",
-      "hostname": "nginix",
+      "hostname": "nginx",
       "essential": true,
       "portMappings": [
         {
-          "hostport": 80,
+          "hostPort": 80,
           "containerPort": 80
         }
       ],
@@ -38,4 +38,3 @@
     }
   ]
 }
-
