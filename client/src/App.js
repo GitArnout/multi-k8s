@@ -8,7 +8,7 @@ import Fib from './Fib';
 function App() {
   return (
     <Router>
-      <div className="App">Nooit meer
+      <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <a
@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React 3
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>

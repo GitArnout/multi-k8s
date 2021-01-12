@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\server",
-    "\\worker"
+    "\\k8s"
   ],
+  "SelectedNode": "\\k8s\\client-deployment.yaml",
   "PreviewInSolutionExplorer": false
 }
